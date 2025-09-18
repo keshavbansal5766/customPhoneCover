@@ -1,7 +1,7 @@
 import React from "react";
 import MaxWidthWrapper from "./MaxWidthWrapper";
 import Link from "next/link";
-import { buttonVariants } from "@/components/ui/button";
+import { buttonVariants } from "@/app/components/ui/button";
 import { ArrowRightIcon } from "lucide-react";
 import { getKindeServerSession } from "@kinde-oss/kinde-auth-nextjs/server";
 
@@ -74,7 +74,7 @@ const Navbar = async () => {
                     variant: "ghost",
                   })}
                 >
-                  login
+                  Login
                 </Link>
                 <div className="h-8 w-px bg-zinc-200 hidden sm:block" />
 
